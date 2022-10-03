@@ -1,0 +1,541 @@
+body
+{
+    margin: 0px;
+    padding: 0%;
+    display: flex;
+    background-color: black;
+
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.menu
+{
+    background-color: rgb(0, 0, 0);
+    width: 15vw;
+    height: 500px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.5%;
+    position:fixed;
+    align-items: center;
+
+}
+.contenedornombre
+{
+    width: 90%;
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nombre
+{
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration-style: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgb(224, 217, 217), 0.2rem 0.2rem 0rem rgba(3, 129, 14, 0.733);
+    font-family:fantasy;
+    font-style:oblique;
+
+
+    
+}
+.menuopciones
+{
+    background-color: rgba(255, 255, 255, 0);
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+.itemnav
+{
+
+    padding: 5%;
+
+
+    color: rgb(253, 253, 253);
+
+
+    font-style:normal;
+    font-family:monospace;
+    font-size: 130%;
+}
+.checkbtn
+{
+
+    font-size: 20px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+
+
+.contenido
+{
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 83vw;
+    height: 200vh;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 17vw;
+    padding-bottom: 0%;
+
+
+
+}
+.contenedor
+{
+    
+    height: 100%;
+    padding: 0%;
+}
+.profesiones
+{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    height: 7%;
+    align-items: center;
+
+}
+.itemprofesiones
+{
+    display: flex;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1%;
+
+    margin: 0.6%;
+    font-size: 1rem;
+    font-family: monospace;
+
+}
+.divflexpadre
+{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+.divflex1
+{
+
+    width: 30%;
+    height: 90%;
+    
+    background-color: rgba(173, 10, 10, 0);
+    display: flex;
+    flex-direction: column;
+    
+}
+.divflex2
+{
+    width: 30%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+.divflex3
+{
+    width: 30%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+.divitem1flex1
+{
+    width: 98%;
+    height: 60%;
+    background-color: rgba(250, 250, 250, 0);
+    margin: 1%;
+}
+.divitem1item1
+{
+    height: 49%;
+    background-color: rgb(17, 17, 19);
+    margin-bottom: 2%;
+}
+.divitem1item2
+{
+    height: 50%;
+    background-color: rgb(14, 19, 19);
+    margin-top: 1%;
+}
+.divitem2flex1
+{
+    width: 98%;
+    height: 40%;
+    background-color: rgb(21, 22, 22); 
+    margin: 1%;
+}
+
+
+.divitem1flex2
+{
+    width: 98%;
+    height: 33%;
+    background-color: rgb(24, 26, 26);
+    margin: 1%;
+}
+.divitem2flex2
+{
+    width: 98%;
+    height: 33%;
+    background-color: rgb(24, 26, 26);
+    margin: 1%;
+}
+.divitem3flex2
+{
+    width: 98%;
+    height: 33%; 
+    background-color: rgb(14, 15, 15);
+    margin: 1%;
+}
+.divitem1flex3
+{
+    width: 98%;
+    height: 50%; 
+    background-color: rgb(14, 15, 15);
+    margin: 1%;
+}
+.divitem2flex3
+{
+    width: 98%;
+    height: 35%; 
+    background-color: rgb(24, 26, 26);
+    margin: 1%;
+}
+.divitem3flex3
+{
+    width: 98%;
+    height: 25%; 
+    background-color: rgb(24, 26, 26);
+    margin: 1%;
+}
+
+
+
+
+
+
+
+
+.contenido1
+{
+    background-color: rgba(151, 16, 16, 0.925);
+    width: 77vw;
+    height: 200vh;
+    display: inline-block;
+    margin: 0.5%;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+.contenedor1
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.tituloskills
+{
+    color: black;
+    background-color: white;
+    padding: 3%;
+    text-transform: uppercase;
+    width: 95%;
+    height: 7%;
+    padding: 0%;
+    
+}
+.skill1
+{
+    margin-top: 5%;
+}
+.skilldiv
+{
+    display: flex;
+
+}
+.imgskill
+{
+    width: 100%;
+    height: 100%;
+}
+.skilltitle
+{
+    font-size: 30px;
+    margin: 0%;
+    background-color: black;
+    color:white;
+}
+
+
+.divskilldescripcion
+{
+    
+    background-color: rgb(7, 141, 74);
+    width: 70%;
+}
+.descripcionskill
+{
+    background-color: white;
+    margin: 0%;
+}
+
+
+.skillimg
+{
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+}
+
+
+
+
+
+
+.sectioncontact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin-left: 21%;
+    background-color: antiquewhite;
+}
+.contenidocontact
+{
+    width:80%;
+    background-color: black;
+
+}
+.contenedorcontact
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+
+}
+.contactlinea
+{
+    background-color: rgb(201, 9, 9);
+    width: 50%;
+    height: 200px;
+}
+.contactlinea1
+{
+    background-color: rgb(17, 14, 199);
+    width: 50%;
+    height: 200px;
+}
+.redsocial1
+{
+    width: 95%;
+    height: 95%;
+    margin: 3%;
+    background-color: blueviolet;
+}
+.redsocial2
+{
+    width: 95%;
+    height: 50%;
+    margin: 3%;
+    background-color: rgb(43, 226, 89);
+}
+.redsocial3
+{
+    width: 95%;
+    height: 50%;
+    margin: 3%;
+    background-color: rgb(17, 128, 7);
+}
+
+@media screen and (max-width: 480px) {
+    .body
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profesiones
+    {
+        top: 40px;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        height: 4%;
+        align-items: center;
+    }
+    .itemprofesiones
+    {
+        border: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+
+
+        height: auto;
+
+        font-size: 0.6rem;
+        font-family: monospace;
+    
+    }
+
+        
+    .divflexpadre
+    {
+        margin-top: 7%;
+        background-color: rgb(255, 255, 255);
+        height: auto;
+    }
+    .contenido
+    {
+        background-color: rgba(151, 16, 16, 0.925);
+        width: 100%;
+        height: 200vh;
+        display: inline-block;
+        margin: 0.5%;
+
+        margin-top: 8%;
+    
+    
+    }
+    .contenedor
+    {
+        
+        height: 100%;
+    } 
+    .divflex1
+    {
+        margin-top: 5%;
+        width: 80vw;
+        height: 140vh;
+        
+    }
+    .divflex2
+    {
+        width: 80vw;
+        height: 140vh;
+
+    }
+    .divflex3
+    {
+        width: 80vw;
+        height: 140vh;
+        margin-bottom: 5%;
+    }
+    .menu
+    {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 5%;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0%;
+        position:fixed;
+    }
+    .contenedornombre
+    {
+        width:90%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content:flex-start;
+        padding-top: 0%;
+    }
+    .nombre
+    {
+        margin-left: 10%;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7rem;
+
+    
+    
+        
+    }
+    .menuopciones
+    {
+
+        background-color: rgba(16, 126, 1, 0.959);
+        width: 40%;
+        height: 8%;
+        top: 10px;
+        left: -100%;
+        display: block;
+
+        flex-direction: column;
+        position: fixed;
+        text-align: center;
+        transition: all .5s;
+        justify-content: space-between;
+        
+
+    }
+    li{
+        background-color: rgba(156, 26, 26, 0.959);
+        height: auto;
+    }
+    .itemnav
+    {
+        width: 100px;
+        padding: 0%;
+        color: rgb(252, 249, 250);
+        background-color: rgb(153, 24, 24);
+
+        text-align: center;
+        font-style:normal;
+        font-family:monospace;
+        font-size: 80%;
+    }
+    .checkbtn
+    {
+        display: block;
+    }
+
+    #check:checked ~ .menuopciones{
+        left: 50%;
+    }
+
+
+    }
+
+    
