@@ -19,7 +19,7 @@ a
 {
     background-color: rgb(0, 0, 0);
     width: 15vw;
-    height: 500px;
+    height: 100%;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -89,16 +89,18 @@ a
 {
     display: none;
 }
-
+a{
+    text-decoration: none;
+}
 
 .contenido
 {
-    background-color: rgba(6, 143, 25, 0.925);
+    background-color: rgba(255, 255, 255, 0.925);
     width: 83vw;
     height: auto;
     display: inline-block;
 
-    margin-left: 17vw;
+    margin-left: 15vw;
     padding-bottom: 0%;
 
 
@@ -191,12 +193,16 @@ a
     height: 60%;
     background-color: rgba(250, 250, 250, 0);
     margin: 1%;
+    
+
+    
 }
 .divitem1item1
 {
     height: 49%;
     background-color: rgb(17, 17, 19);
     margin-bottom: 2%;
+    background-image:url("WhatsApp Image 2022-10-05 at 12.26.57 AM.jpeg");
 }
 .divitem1item2
 {
@@ -219,6 +225,7 @@ a
     height: 33%;
     background-color: rgb(24, 26, 26);
     margin: 1%;
+    background-image:url("WhatsApp Image 2022-10-05 at 12.27.39 AM.jpeg");
 }
 .divitem2flex2
 {
@@ -236,6 +243,7 @@ a
 }
 .divitem1flex3
 {
+    background-image:url("WhatsApp Image 2022-10-05 at 12.32.27 AM.jpeg");
     width: 98%;
     height: 50%; 
     background-color: rgb(14, 15, 15);
@@ -375,7 +383,7 @@ a
 .sectioncontact
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     justify-content: center;
 
@@ -393,21 +401,16 @@ a
 {
     color: rgb(5, 5, 5);
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
 
     border: solid;
     border-color: black;
     border-block-start: 1rem solid;
     writing-mode: horizontal-tb;
 
-    border-block-start-color: #000000; 
-writing-mode: vertical-rl;
 
-border-block-start-color: rgba(0, 0, 0, 0.6);
-writing-mode: horizontal-tb;
-
-border-block-start-color: rgba(0, 0, 0, 0.8);
-writing-mode: vertical-lr;
+    border-block-start-color: rgba(0, 0, 0, 0.8);
+    writing-mode:horizontal-tb;
     font-family: monospace;
 
     margin-top: 5%;
@@ -416,10 +419,11 @@ writing-mode: vertical-lr;
 
 .contenidocontact
 {
-    width: 80%;
-    background-color: black;
-    margin-top: 5%;
-    padding: 0%;
+    width: auto;
+    background-color: rgba(75, 43, 43, 0);
+
+    padding: 0.5%;
+
 
 }
 .contenedorcontact
@@ -429,57 +433,185 @@ writing-mode: vertical-lr;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: auto;
     height: auto;
     flex-wrap: wrap;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+    border: none;
 
 }
 .contactlinea
 {
-    background-color: rgb(8, 8, 8);
-    width: 20vw;
-    height: 40vh;
+    width: auto;
+    height: auto;
     padding: 0%;
 }
 .contactlinea1
 {
-    background-color: rgb(2, 2, 2);
-    width: 15vw;
-    height: 40vh;
+
+    width: auto;
+    height: auto;
     padding: 0%;
 
 }
 .redsocial1
 {
-    width: 94%;
-    height: 94%;
-    margin: 3%; 
+    width: 300px;
+    height: 36.7vh;
+
     background-color: rgb(255, 255, 255);
+
+    border: solid;
+    color: black;
+    border: 2%;
+
 }
 .redsocial2
 {
-    width: 97%;
-    height: 46%;
-    margin: 3%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width: 200px;
+    height: 18vh;
+
+
     background-color: rgb(255, 255, 255);
+
+
+    border: solid;
+    color: black;
+    border: 2%;
 }
 .redsocial3
 {
-    width: 97%;
-    height: 46%;
-    margin: 3%;
-    margin-left: 0%;
-    margin-right: 0%;
+    width: 200px;
+    height: 18vh;
+
     background-color: rgb(255, 255, 255);
+
+    border: solid;
+    color: black;
+    border: 2%;
 }
 .imgcontact
 {
     width: 100%;
     height: 100%;
 }
+
+
+.contenedorsobremi{
+    background-color: rgba(255, 255, 255, 0.925);
+    width: 83vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16vw;
+    padding-bottom: 0%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.titulosobremi
+{
+    text-transform: uppercase;
+    font-size: 150%;
+}
+.descripcionsobremi
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0);
+}
+.descripcion
+{
+    text-align: left;
+    width: 30vw;
+    height: auto;
+}
+.cuadrosobremi
+{
+    display: flex;
+    flex-direction: column;
+}
+.imagensobremi
+{
+    width: 220px;
+    height: 220px;
+    padding-bottom: 0.5rem;
+}
+.redes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.imgredes
+{
+    width: 50px;
+    height: 50px;
+}
+.formacionsobremi
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+
+}
+.subtitulosobremi
+{background-color: rgba(127, 255, 212, 0);
+    width: 50%;
+    padding: 5%;
+
+}
+.subtitulosobremi1
+{background-color: rgba(9, 78, 55, 0);
+    width: 50%;
+    padding: 5%;
+
+}
+.subtitulo
+{
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+.footersobremi
+{
+    display: flex;
+    flex-direction: column;
+}
+.textgracias
+{
+    text-transform: uppercase;
+    font-size: 120%;
+    text-align: start;
+    font-family:fantasy;
+}
+.contenedorpadding
+{
+    padding: 3%;
+    width: 70vw;
+    height: 20vh;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+.boton
+{
+    width: 100%;
+    height: 100%;
+    color:black;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+.boton:hover
+{
+    background-color: black;
+    color: white;
+}
+
 @media screen and (max-width: 999px) {
 
 
@@ -507,9 +639,14 @@ writing-mode: vertical-lr;
         height: 25vh;
         top: 8.5vh;
         position: fixed;
-        background-color: rgb(14, 46, 46);
+        background-color: rgb(255, 255, 255);
+        
         left: -50vw;
         transition: all 0.5s;
+    }
+    .itemnav
+    {
+        color: black;
     }
     .contenedornombre
     {
@@ -602,7 +739,15 @@ writing-mode: vertical-lr;
         left: 50vw;
        
     }
+    
 
+    .contenedorsobremi{
+        margin-top: 16%;
+    }
+    .sectioncontact
+    {
+        margin-top: 16%; 
+    }
     }
 
 
